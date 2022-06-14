@@ -1,0 +1,78 @@
+----------------------------------------------------
+			Books Catalogue
+----------------------------------------------------
+Front End : React, Hooks, Bootstrap, Redux, Routing, CRUD, Authentication , Authorization 
+Backend : Node JS, Express JS, Mongo DB
+
+			-> bcrypt -> password encryption
+			-> gravar -> for person image
+
+
+Frontend setup
+--------------
+-> URL : http://127.0.0.1:3000
+
+-> create a react js project
+ 
+   "npx create-react-app books-catalogue"
+
+-> Install all the dependencies
+
+	"npm install bootstrap @fortawesome/fontawesome-free axios react-router-dom @reduxjs/toolkit react-redux redux-logger"
+
+Backend Setup
+-------------
+-> URL : http://127.0.0.1:5000
+
+-> create package.json 
+
+	"npm init --yes"
+	
+-> install the dependencies
+		
+	"npm install nodemon bcryptjs cors dotenv express express-validator gravatar jsonwebtoken mongoose"
+
+ Database Setup
+ --------------
+ -> URL : mongodb://127.0.0.1:27017
+ 
+ Database Name : books-catalogue
+ Tables : books , users
+  
+ Fields (books) :  -> title
+					-> image 
+					-> price 
+					-> inventory
+					-> author
+					-> isbn
+					-> info
+					-> created (auto)
+ Fields (user) : 
+                   -> name
+                   -> email
+					-> password
+					-> isAdmin
+					-> avatar
+					-> created (auto)
+ 
+
+Authentication Process
+-----------------------
+	
+	Office -> Main Gate , Project ODC , Server Room
+
+		-> public access :  home
+        -> login access : catalogue , view catalogue , about
+        -> admin access : admin , add , edit , delete 
+		
+		
+Install Database (MongoDB) + Compass 
+------------------------------------
+-> https://www.youtube.com/watch?v=7Q_KHYxdEU0&list=PLgp11Hu-N4DQjwdRpePYd7tNjmDyGfNck&index=21 (Intro)
+-> https://www.youtube.com/watch?v=xP4xk_wZjR4&list=PLgp11Hu-N4DQjwdRpePYd7tNjmDyGfNck&index=23	(Installation)	
+-> https://www.youtube.com/watch?v=98uNGur6HPg&list=PLgp11Hu-N4DQjwdRpePYd7tNjmDyGfNck&index=24 (Compass GUI)
+
+Authentication in Backend (JWT Authentication)
+-------------------------
+-> https://www.youtube.com/watch?v=7nafaH9SddU&t=61s&ab_channel=TraversyMedia (JWT Authentication)
+-> https://www.youtube.com/watch?v=dENxoZSpDnM&list=PLgp11Hu-N4DQjwdRpePYd7tNjmDyGfNck (Node JS Backend)

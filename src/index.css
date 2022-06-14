@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+
+/*
+    Global Styles here
+ */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e1ebe0 !important;
+}
+
+.landing {
+    background: white url("assets/img/background.jpg") no-repeat scroll center;
+    height: 100vh;
+}
+
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+}
+
+.contact-img {
+    width: 150px;
+}
+
+.contact-img-big {
+    width: 200px;
+}
+
+.text-main {
+    color: #c9bab2 !important;
+}
+
+.text-title {
+    color: #928985 !important;
+}
+
+.table-main {
+    background-color: #928985 !important;
+}
+
+.loading-spinner {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+.table-img {
+    width: 75px;
+}
+
+.catalogue-img {
+    width: 200px;
+    height: 350px;
+}
+
+.edit-book-img, .create-book-img {
+    width: 250px;
+}
+
+.decoration{
+    text-align: none;
+}
